@@ -34,6 +34,7 @@ fpm:
     # - DB_PASSWORD=
   links:
     - mysql:mysql
+    - redis:redis
 
 # database
 mysql:
