@@ -32,12 +32,12 @@ Check out your https://\<docker-host\> and have fun :beer:
 
 ### Contributors
 
-Micooz <micooz@hotmail.com>
-
-sndnvaps <sndnvaps@gmail.com>
+xuleyan 1303110335@qq.com
 
 ### License
 
 MIT
 
   [1]: architecture.png
+
+quoted from https://github.com/micooz/docker-lnmp
