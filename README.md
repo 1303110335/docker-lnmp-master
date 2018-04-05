@@ -30,6 +30,9 @@ For more operations to containers, please refer to:
 
 Check out your https://\<docker-host\> and have fun :beer:
 
+Generate your own server.key and server.crt:
+    $ openssl req -x509 -newkey rsa:4096 -keyout nginx/ca/server.key -out nginx/ca/server.crt -days 365
+
 ### Contributors
 
 xuleyan 1303110335@qq.com
