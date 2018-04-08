@@ -3,3 +3,4 @@
 *.pem
 *.crt
 *.csr
+rabbitmq/*
