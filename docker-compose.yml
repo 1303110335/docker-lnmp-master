@@ -35,6 +35,7 @@ fpm:
   links:
     - mysql:mysql
     - redis:redis
+    - rabbitmq:rabbitmq
 
 # database
 mysql:
@@ -57,3 +58,10 @@ redis:
     - ./redis:/var/lib/redis
   restart: always
   entrypoint: redis-server --appendonly yes
+
+rabbitmq:
+  image: rabbitmq:3-management
+  ports:
+    - "5672:5672"
+  volumes:
+    - ./rabbitmq:/var/lib/rabbitmq
